@@ -1,0 +1,80 @@
+body {
+    background: rgb(58, 238, 238);
+}
+
+div {
+width: 300px;
+background: palevioletred;
+margin: auto;
+border: 1px solid rgb(65, 64, 64);
+padding: 30px;
+justify-content: space-evenly;
+}
+
+h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(65, 64, 64);
+    font-family: 'Comic Neue', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    color: rgb(65, 64, 64);
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+}
+
+li {
+    tab-size: 0px;
+    position: relative;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.done {
+   width: 20px;
+   height: 20px;
+   border: none;
+   background: palevioletred;
+   position: absolute;
+   right: 30px;
+   top: 10px;
+}
+
+.remove {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: palevioletred;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+input {
+    margin: 0px;
+    height: fit-content;
+    width: 200px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+
+.add {
+    margin: 0px;
+    background: violet;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
